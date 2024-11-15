@@ -88,7 +88,7 @@ MHWs-Ext-Manager.exe split MHWs_STM_Beta.list
 - If `RETool.exe` or `MHWs_STM_Beta.list` is missing, the batch script will automatically download them:
   - `RETool.exe` will be downloaded from [RETool GitHub Repository](https://raw.githubusercontent.com/mhvuze/MonsterHunterRiseModding/main/files/REtool.exe).
   - `MHWs_STM_Beta.list` will be downloaded from [Ekey's GitHub Repository](https://github.com/Ekey/REE.PAK.Tool).
-- Ensure that `RETool.exe` `MHWs_STM_Beta.list`, and `.pak` are located in the same directory as the batch script after the first run.
+- Ensure that `RETool.exe` and `MHWs_STM_Beta.list` are located in the same directory as the batch script after the first run.
 - The tool is optimized for Monster Hunter Wilds `.pak` files but may work with similar formats.
 
 ---
