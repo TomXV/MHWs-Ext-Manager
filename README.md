@@ -12,14 +12,16 @@ A powerful tool for managing `.pak` files for **Monster Hunter Wilds**. This too
 - **Automatic File Download**:
   - If `RETool.exe` or `MHWs_STM_Beta.list` is missing, the script will automatically download them.
 
----
-
 ## Requirements
 
 - **Operating System**: Windows 10 x64 or later
 - **Dependencies**:
   - PowerShell (for the batch script)
   - Internet connection (for downloading missing files)
+
+## **Downloads**
+
+The pre-built version of this tool is available for download on the [Releases page](https://github.com/TomXV/MHWs-Ext-Manager/releases). You can directly download the executable and start using it without building from source.
 
 ---
 
@@ -86,10 +88,18 @@ MHWs-Ext-Manager.exe split MHWs_STM_Beta.list
 - If `RETool.exe` or `MHWs_STM_Beta.list` is missing, the batch script will automatically download them:
   - `RETool.exe` will be downloaded from [RETool GitHub Repository](https://raw.githubusercontent.com/mhvuze/MonsterHunterRiseModding/main/files/REtool.exe).
   - `MHWs_STM_Beta.list` will be downloaded from [Ekey's GitHub Repository](https://github.com/Ekey/REE.PAK.Tool).
-- Ensure that `RETool.exe` and `MHWs_STM_Beta.list` are located in the same directory as the batch script after the first run.
+- Ensure that `RETool.exe` `MHWs_STM_Beta.list`, and `.pak` are located in the same directory as the batch script after the first run.
 - The tool is optimized for Monster Hunter Wilds `.pak` files but may work with similar formats.
 
 ---
+
+### **Note on the Batch File**
+
+The provided batch file (`extract-wilds-pak.bat`) is designed to automate common tasks, but it may encounter certain issues under specific environments or configurations. If you experience any problems, feel free to:
+- Open an issue on the GitHub repository.
+- Suggest or contribute fixes to improve its reliability.
+
+We greatly appreciate your feedback and contributions to help make this tool better!
 
 ## License
 This project is licensed under the MIT License.
